@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>about us</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">A.C.T for community</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">shaikh anas</h3>
+         <p class="role">studen</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">name student</h3>
+      <p class="role">student</p>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+   </nav>
+
+</div>
+
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/about-img.svg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>Chọn eLearning: Giải pháp học tập xanh, bảo vệ môi trường</h3>
+      <p>Môi trường sống của chúng ta đang phải đối mặt với những thách thức lớn từ ô nhiễm, khai thác tài nguyên thiên nhiên và biến đổi khí hậu. 
+         Việc bảo vệ môi trường không chỉ là trách nhiệm của chính phủ mà còn là nhiệm vụ của mỗi cá nhân trong cộng đồng. 
+         Một trong những biện pháp hiệu quả để bảo vệ thiên nhiên là giảm thiểu việc sử dụng giấy, nguồn tài nguyên đang dần cạn kiệt. 
+         Thay vì sử dụng tài liệu in ấn truyền thống, việc chuyển sang học trực tuyến qua nền tảng eLearning giúp tiết kiệm lượng giấy đáng kể, 
+         từ đó góp phần bảo vệ rừng và giảm bớt khí thải CO2 phát sinh từ việc sản xuất và vận chuyển giấy. Việc học trực tuyến không chỉ mang lại sự tiện lợi cho người học 
+         mà còn là một hành động thiết thực nhằm bảo vệ môi trường, giúp xây dựng một tương lai xanh và bền vững hơn cho tất cả chúng ta.</p>
+      </div>
+
+   </div>
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-graduation-cap"></i>
+         <div>
+            <h3>+10k</h3>
+            <p>online courses</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-user-graduate"></i>
+         <div>
+            <h3>+40k</h3>
+            <p>brilliant students</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-chalkboard-user"></i>
+         <div>
+            <h3>+2k</h3>
+            <p>expert tutors</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-briefcase"></i>
+         <div>
+            <h3>100%</h3>
+            <p>job placement</p>
+         </div>
+      </div>
+
+   </div>
+
+</section> 
+
+<section class="reviews">
+
+   <h1 class="heading">student's reviews</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <p>Tôi rất hài lòng với các lớp học eLearning vì sự tiện lợi và linh hoạt mà nó mang lại. Việc học trực tuyến giúp tôi tiết kiệm thời gian di chuyển và có thể học mọi lúc, mọi nơi. Tôi hoàn toàn ủng hộ phương pháp học online vì không chỉ nâng cao kiến thức mà còn góp phần bảo vệ môi trường, giảm thiểu việc sử dụng giấy. Đây là một xu hướng học tập hiện đại và bền vững mà tôi tin chắc sẽ phát triển mạnh mẽ trong tương lai.</p>
+         <div class="student">
+            <img src="images/pic-1.jpg" alt="">
+            <div>
+               <h3>name student</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>Tôi rất thích học trực tuyến vì nó giúp tôi tiết kiệm thời gian và dễ dàng tiếp cận tài liệu học mọi lúc, mọi nơi. Không những thế, eLearning còn giúp tôi phát triển kỹ năng tự học, một yếu tố quan trọng trong thời đại công nghệ. Tôi cũng hoàn toàn ủng hộ phương pháp học này vì nó góp phần vào việc bảo vệ môi trường, giảm thiểu việc tiêu thụ giấy và năng lượng. Học online không chỉ giúp tôi học hiệu quả mà còn góp phần vào việc xây dựng một tương lai bền vững.</p>
+         <div class="student">
+            <img src="images/pic-3.jpg" alt="">
+            <div>
+               <h3>name student</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>Tôi thực sự thấy việc học trực tuyến rất tiện lợi. Nó giúp tôi học tập dễ dàng mà không cần phải lo lắng về việc di chuyển đến lớp. Hơn nữa, việc học online cũng giúp tôi tiết kiệm khá nhiều giấy, điều này rất có ích cho môi trường. Tôi nghĩ đây là một cách học hiện đại, vừa hiệu quả vừa bảo vệ được thiên nhiên, và tôi sẽ tiếp tục sử dụng phương pháp này.</p>
+         <div class="student">
+            <img src="images/pic-4.jpg" alt="">
+            <div>
+               <h3>name student</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>Tôi rất thích học trực tuyến vì nó mang lại sự thoải mái và linh hoạt, giúp tôi có thể học tập mọi lúc, mọi nơi mà không cần lo về thời gian hay địa điểm. Ngoài ra, học online còn giúp giảm bớt việc sử dụng giấy, điều này không chỉ tiết kiệm mà còn tốt cho môi trường. Đây là một lựa chọn học tập thông minh mà tôi cảm thấy rất hài lòng.</p>
+         <div class="student">
+            <img src="images/pic-5.jpg" alt="">
+            <div>
+               <h3>name student</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>Tôi thực sự ủng hộ việc học trực tuyến vì nó giúp tôi tiết kiệm được thời gian và có thể học mọi lúc, mọi nơi mà không cần phải di chuyển đến lớp. Điều tôi thấy ấn tượng là học online còn giúp giảm lượng giấy sử dụng, từ đó góp phần bảo vệ môi trường. Đây là một lựa chọn học tập rất hợp lý trong thời đại công nghệ và tôi cảm thấy rất hài lòng khi sử dụng phương pháp này.</p>
+         <div class="student">
+            <img src="images/pic-6.jpg" alt="">
+            <div>
+               <h3>name student</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>Tôi cảm thấy học trực tuyến thật sự mang lại nhiều lợi ích. Không chỉ giúp tôi tiết kiệm thời gian và học mọi lúc, mọi nơi, mà còn giúp giảm thiểu việc sử dụng giấy, điều này cực kỳ có ích cho việc bảo vệ môi trường. Việc chuyển sang học online không chỉ tiện lợi mà còn góp phần vào việc bảo vệ tài nguyên thiên nhiên, điều này khiến tôi cảm thấy rất hài lòng với lựa chọn này.</p>
+         <div class="student">
+            <img src="images/pic-7.jpg" alt="">
+            <div>
+               <h3>name student</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+</section>
+
+<section class="reviews">
+   <h1 class="heading">Your Review</h1>
+   <div class="row">
+      <div class="column">
+         <div class="details">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScrfISx8FN0fW2UkhIG-xYRz-Vda-ERQZq2LMBPTmy3k1jAJA/viewform" style="display: block; text-decoration: none; border: 1px solid #ddd; border-radius: 8px; padding: 10px; transition: transform 0.3s, box-shadow 0.3s; color: inherit; background: #fff;">
+               <div class="task-row" style="display: flex; justify-content: space-between; align-items: center;">
+                  <h3 style="margin: 0; font-size: 18px; color: #333;text-decoration: underline;">Bấm vào đây để đánh giá</h3>
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
